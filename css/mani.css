@@ -24,6 +24,8 @@ html body{
 #header{
     height: 70px;
     background-color: rgb(238, 238, 255);
+    
+    
 }
 nav a{
     text-decoration: none;
@@ -124,6 +126,101 @@ nav ul,li{
 .iconabo1:hover .font-logo2{
     background-color: rgb(115, 115, 216)
 }
+/*features*/
+#features{
+    height: 538px;
+    margin-top: 60px;
+    
+}
+.features-whole{   
+}
+
+.feau-first > div{
+    width: 33.33%;
+    border: solid 1px;
+    border-color: #ccc;
+    height: 257px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+.feau-first .feau01{
+    border-left: none;  
+}
+.feau-second .feau06{
+    border-right: none;
+}
+.feau-second > div{
+    width: 33.33%;
+    border: solid 1px;
+    border-color: #ccc;
+    height: 278px;
+    border-left: none;
+    border-bottom: none;
+}
+.feau01,.feau02,.feau03{
+    padding-left: 40px;
+}
+.feau04,.feau05,.feau06{
+    padding-left: 40px;
+}
+/*boxes*/
+#boxes{
+    height: 278px;
+    background-color: rgb(226, 247, 255);
+}
+.four-box{
+    padding-top: 59px;
+     display: flex;
+}
+.four-box > div {
+    width: 25%;
+    height: 161px;
+    box-shadow: 0 0 5px 0;
+    border-radius: 5px;
+    background-color: white;
+}
+.four-box .box1,.box2,.box3{
+    margin-right: 22px;
+}
+.four-box h1{
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+/*.four-box h1,p{
+    padding-left:84px ; 
+}*/
+.four-box p{
+    margin-top: -5%;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(58, 53, 53);
+}
+.box1,.box2,.box3,.box4{
+    text-align: center;
+    justify-content: center;
+}
+/*services*/
+#services{
+    height: 699px;
+    background-color: aqua;
+}
+.header-service{
+    height: 147px;
+    background-color: blue
+}
+.firstserv .serv1,.serv2,.serv3{
+    width:33.32% ;
+    height: 259px;
+    border: solid 1px;
+}
+.secondserv .serv4,.serv5,.serv6{
+    width:33.33% ;
+    height: 259px;
+    border: solid 1px;
+}
+
 
     
 

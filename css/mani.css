@@ -10,7 +10,7 @@ html body{
 }
 #quick-contact{
     height: 40px;
-    background-color: rgb(197, 206, 206);
+    background-color: rgb(245, 255, 255);
 }
 .quick-left a{
     text-decoration: none;
@@ -23,7 +23,7 @@ html body{
 }
 #header{
     height: 70px;
-    background-color: rgb(238, 238, 255);
+    background-color: rgb(234, 252, 255);
     
     
 }
@@ -204,21 +204,154 @@ nav ul,li{
 /*services*/
 #services{
     height: 699px;
-    background-color: aqua;
 }
 .header-service{
     height: 147px;
-    background-color: blue
 }
 .firstserv .serv1,.serv2,.serv3{
     width:33.32% ;
     height: 259px;
-    border: solid 1px;
+    
 }
 .secondserv .serv4,.serv5,.serv6{
     width:33.33% ;
     height: 259px;
-    border: solid 1px;
+    
+}
+.serv1 .mess-logo{
+    width: 82px;
+    height: 82px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 143px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px -10px blue;
+    transition: 0.5s;
+}
+.horizontal-line{
+    width: 51px;
+    height: 2px;
+    background-color: rgb(21, 130, 194);
+    margin-left: 157px;
+}
+.serv2 .chart-logo{
+    width: 82px;
+    height: 82px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 143px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px -10px blue;
+    transition: 0.5s;
+}
+.serv3 .global-logo{
+    width: 82px;
+    height: 82px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 143px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px -10px blue;
+    transition: 0.5s;
+}
+.serv4 .hotspot-logo{
+    width: 82px;
+    height: 82px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 143px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px -10px blue;
+    transition: 0.5s;
+}
+.serv5 .sun-logo{
+    width: 82px;
+    height: 82px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 143px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px -10px blue;
+    transition: 0.5s;
+}
+.serv6 .calendor-logo{
+    width: 82px;
+    height: 82px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 143px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px -10px blue;
+    transition: 0.5s;
+}
+.icofont-ui-messaging{
+    font-size: 38px;
+    color: rgb(18, 182, 223);
+}
+.icofont-chart-flow-1{
+    font-size: 38px;
+    color: rgb(18, 182, 223);
+}
+.icofont-globe{
+    font-size: 38px;
+    color: rgb(18, 182, 223);
+}
+.icofont-ui-wifi{
+    font-size: 38px;
+    color: rgb(18, 182, 223);
+}
+.icofont-sun{
+    font-size: 38px;
+    color: rgb(18, 182, 223);
+}
+.icofont-ui-calendar{
+    font-size: 38px;
+    color: rgb(18, 182, 223);
+}
+.serv1,.serv2,.serv3,.serv4,.serv5,.serv6{
+    text-align: center;
+}
+#services h2{
+    color: rgb(63, 57, 57);
+}
+#services p{
+    color: rgb(110, 98, 98);
+}
+.serv1:hover .mess-logo{
+    box-shadow: 0 0 40px -10px blue;
+    transition: 0.5s;
+}
+.serv2:hover .chart-logo{
+    box-shadow: 0 0 40px -10px blue;
+    transition: 0.5s;
+}
+.serv3:hover .global-logo {
+    box-shadow: 0 0 40px -10px blue;
+    transition: 0.5s;
+}
+.serv4:hover .hotspot-logo {
+    box-shadow: 0 0 40px -10px blue;
+    transition: 0.5s;
+}
+.serv5:hover .sun-logo{
+    box-shadow: 0 0 40px -10px blue;
+    transition: 0.5s;
+}
+.serv6:hover .calendor-logo {
+    box-shadow: 0 0 40px -10px blue;
+    transition: 0.5s;
 }
 
 

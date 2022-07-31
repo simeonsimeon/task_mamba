@@ -353,6 +353,144 @@ nav ul,li{
     box-shadow: 0 0 40px -10px blue;
     transition: 0.5s;
 }
+/*PORTFOLIO*/
+#our-portfolio{
+    height: 1227px;
+    background-color: #f5f9fc;
+}
+.header-port{
+    height: 276px;
+}
+.four-button button{
+    
+    transition: 0.5s all 0s;
+}
+.four-button button:hover{
+    background-color: #428bca;
+    transition: 0.5s all 0s;
+}
+.portfolio-images{
+    display: flex;
+}
+.port-img1,.port-img2,.port-img3{
+    position: relative;
+    width: 33.33%;
+    height: 267px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.port-img1,.port-img2{
+    margin-right: 25px;
+}
+.headset,.watch,.cooling-class{
+    width: 100%;
+    height: 267px;
+}
+.easy1{
+    top: 25%;
+    display: none;
+    transform: scale(1);
+    transform: translateY(0);
+}
+.easy011,.easy012,.easy013{
+    opacity: 0;
+} 
+
+
+.port-img1:hover .easy1{
+    display: block;
+    transform: scale(1.1);
+    transform: translateY(2ch);
+    
+}
+.port-img2:hover .easy1{
+    display: block;
+    transform: scale(1.1);
+    transform: translateY(2ch);
+    
+}
+.port-img3:hover .easy1{
+    display: block;
+    transform: scale(1.1);
+    transform: translateY(2ch);
+    
+}
+.port-img1:hover .easy011{
+    opacity: 1;
+}
+.port-img2:hover .easy012{
+    opacity: 1;
+}
+.port-img3:hover .easy013{
+    opacity: 1;
+}
+
+.s{
+    background: rgba(0 0 0/0.4);
+    width: 100%;
+    height: 267px;
+    display: none;
+    transition: .5s all 0s;
+}
+.port-img1:hover .s{
+    display: block;
+    transition: .5s all 0s;
+}
+.port-img2:hover .s{
+    display: block;
+    transition: .5s all 0s;
+}
+.port-img3:hover .s{
+    display: block;
+    transition: .5s all 0s;
+}
+.headset,.watch,.cooling-class{
+    transform: scale(1);
+    transition: .5s all 0s;
+}
+.port-img1:hover .headset{
+    transform: scale(1.1);
+    transition: .5s all 0s;
+}
+.port-img2:hover .watch{
+    transform: scale(1.1);
+    transition: .5s all 0s;
+}
+.port-img3:hover .cooling-class{
+    transform: scale(1.1);
+    transition: .5s all 0s;
+}
+.port-img2:hover .blue-hover2{
+    background-color: rgb(1, 161, 253); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
 
 
     

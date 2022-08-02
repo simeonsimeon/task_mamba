@@ -799,6 +799,30 @@ nav ul,li{
     transform: scale(1.1);
     transition: .5s all 0s;
 }
+.images2-pin a:hover{
+    background-color: aqua;
+}
+
+.images2-pin1 a:hover{
+    background-color: aqua;
+}
+.images2-pin2 a:hover{
+    background-color: aqua;
+}
+.images2-pin3 a:hover{
+    background-color: aqua;
+}
+.images2-pin4 a:hover{
+    background-color: aqua;
+}
+
+
+.images2-pin5 a:hover{
+    background-color: aqua;
+}
+.images2-pin5 i:hover{
+    background-color: rgb(255, 255, 255);
+}
 
 
 
@@ -823,24 +847,33 @@ nav ul,li{
 
 
 
+#trainers{
+    height: 545px;
+    
+    
+}
+.whole-trainers{
+    display: flex;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header-team{
+    height: 150px;
+    
+    text-align: center;
+    justify-content: center;
+    
+}
+.header-team  h1{
+    padding-top: 50px;
+    font-size: 32px;
+    color:  #5c768d;
+    font-weight:bolder;
+    margin-bottom: 20px; 
+}
+.header-team p{
+    font-size: 20px;
+    color: rgb(70, 66, 66);
+}
 
 
 .trainers1{
@@ -863,13 +896,163 @@ nav ul,li{
     transition: .5s all 0s;
     transform: scale(1);
 }
-.social-med:hover a{
-    background-color: #428bca;
+.social-med a:hover {
+    background-color: #002d55;
 }
 .trainers1:hover .subsup{
      transform: scale(1.1);
      transition: .5s all 0s;
 }
+  
+
+
+
+
+
+.trainers2,.trainers3,.trainers4{
+    width: 262px;
+    height: 259px;
+    
+    position: relative;
+    border-radius: 10px;
+}
+.niceone{
+    width: 100%;
+    height: 259px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+
+
+
+.walter,.williom-anderson,.amanda{
+    width: 262px;
+    height: 259px;
+    
+    transition: .5s all 0s;
+    
+    
+}
+.walter img{
+    width: 100%;
+    height: 259px;
+    
+}
+.williom-anderson img{
+    width: 262px;
+    height: 259px;
+    
+}
+.amanda img{
+    width: 262px;
+    height: 259px;
+    
+}
+.blshadow1{
+    width: 223px;
+    height: 130px;
+    background: linear-gradient(360deg, rgb(92, 118, 141),
+     rgba(92, 118, 141, 0.9),
+     rgba(140, 167, 191, 0.8));
+     border-radius: 5px;
+     position: absolute;
+     top: 68%;
+     margin-left: 20px;
+}
+.blshadow2{
+    width: 223px;
+    height: 130px;
+    background: linear-gradient(360deg, rgb(92, 118, 141),
+     rgba(92, 118, 141, 0.9),
+     rgba(140, 167, 191, 0.8));
+     border-radius: 5px;
+     position: absolute;
+     top: 68%;
+     margin-left: 20px;
+}
+.blshadow3{
+    width: 223px;
+    height: 130px;
+    background: linear-gradient(360deg, rgb(92, 118, 141),
+     rgba(92, 118, 141, 0.9),
+     rgba(140, 167, 191, 0.8));
+     border-radius: 5px;
+     position: absolute;
+     top: 68%;
+     margin-left: 20px;
+}
+.blshadow1 h4{
+    padding-left: 25%;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.blshadow2 h4{
+    padding-left: 25%;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.blshadow3 h4{
+    padding-left: 25%;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.blshadow1 p{
+    padding-left: 20%;
+    margin-bottom: 10px;
+    color: white;
+}
+.blshadow2 p{
+    padding-left: 45%;
+    color: white;
+    margin-bottom: 10px;
+}
+.blshadow3 p{
+    padding-left: 37%;
+    color: white;
+    margin-bottom: 10px;
+}
+.blshadow1 a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+.blshadow2 a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+.blshadow3 a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+.trainers2:hover .walter{
+    transform: scale(1.1);
+    transition: .5s all 0s;
+}
+.trainers3:hover .williom-anderson{
+    transform: scale(1.1);
+    transition: .5s all 0s;
+}
+.trainers4:hover .amanda{
+    transform: scale(1.1);
+    transition: .5s all 0s;
+}
+.trainers1,.trainers2,.trainers3{
+    margin-right: 23px;
+}
+.hoverto-ico a:hover{
+    background-color: #002d55;
+}
+
+
 
 
 

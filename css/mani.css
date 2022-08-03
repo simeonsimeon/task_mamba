@@ -814,6 +814,7 @@ nav ul,li{
 }
 .images2-pin4 a:hover{
     background-color: aqua;
+    color: rgb(255, 0, 0);
 }
 
 
@@ -821,7 +822,7 @@ nav ul,li{
     background-color: aqua;
 }
 .images2-pin5 i:hover{
-    background-color: rgb(255, 255, 255);
+    color: antiquewhite;
 }
 
 

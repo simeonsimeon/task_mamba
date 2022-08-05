@@ -17,21 +17,29 @@ html body{
     text-decoration: none;
     padding-top: 12px;
     padding-right: 10px;
+    color: black;
 }
 .quick-right a{
     padding-left: 20px;
     text-decoration: none;
+    color: #002d55;
+}
+.quick-left .fas,.icofont-stock-mobile{
+    color: #0083fd;
 }
 /*header*/
 #header{
     height: 70px;
-    background-color: rgb(255, 255, 255);
+    
+    position: relative;
     
     
 }
 nav a{
     text-decoration: none;
     padding-right: 31px;
+    color: #073149;
+    font-size: 17px;
 }
 nav ul,li{
     display: inline;
@@ -40,17 +48,33 @@ nav ul,li{
     display: none;
     position: absolute;
 }
-.drop:hover > div{
-    display: block;   
-}
-.menubar ul .drop:hover .submenu{
+
+.header-right nav ul .drop:hover .submenu{
     display: block;
+    width: 200px;
+    
 }
+
 /*banner*/
 #banner{
     height: 459px;
+    position: relative;
     /* margin-top: 0px; */
 }
+#banner .arrowleft,.arrowright{
+    font-size: 100px;
+    color: rgb(187, 179, 179);
+    font-weight: 100;
+}
+#banner .arrowleft{
+    top: 37.5%; 
+}
+#banner span .icofont-simple-right{
+    top: 37.5%;
+    right: 10%;
+}
+
+
 /*.bg-img{
     
     width: 100%;
@@ -67,16 +91,52 @@ nav ul,li{
 }
 #banner h1{
     font-weight:100;
+}*/
+
+
+.bg-images{
+    width: 100%;
+    height: 450px;
+    background-image: url(../slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    /* background-position: center 0px;   */
 }
-#banner button{
+ #banner .bg-images::after{
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 0;  
+}
+#banner .bg-content{
+     position: absolute;
+     top: 10%;
+     justify-content: center;
+}
+#banner h1{
+    font-size: 49px;
+    font-weight: 900;
+    font-family: "raleway",sans-serif;
+    color: #ffffff;
+}
+#banner p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "open sans",sans-serif;
+    width: 60%;
+    color: #ffffff;
+}
+#banner a button{
     height: 40px;
     width: 144px;
-    
     color: white;
     background-color: rgb(0, 203, 253);
     border-radius: 5px;
     border: none;
-}*/
+}
 #about-as{
     height: 574px;
     
@@ -1335,7 +1395,7 @@ nav ul,li{
     flex:1 0 0;
 }
 .foot,.foot4{
-    margin-top: 60px;
+    margin-top: 50px;
     
 }
 .foot1 h3,p{
@@ -1372,7 +1432,7 @@ nav ul,li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .foot ul li a{
-    padding-bottom: 15px;
+    padding-bottom: 19px;
     list-style: none;
     display: flex;
     text-decoration: none;

@@ -3,6 +3,9 @@ html body{
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width: 1115px;
     margin: auto;
@@ -30,53 +33,79 @@ html body{
 }
 /*header*/
 #header{
-    height: 70px;
-    
-    position: relative;
-    
-    
-}
-nav a{
-    text-decoration: none;
-    padding-left: 31px;
-    color: #073149;
-    font-size: 17px;
-}
-.header-right nav ul,li{
-    display: inline;
-}
-.drop{
-    position: relative;
-}
-#header .header-whole .header-right nav ul li{
-    position: relative;
+    height: 70px; 
+    position: relative;  
 }
 .submenu{
-    position: absolute;
-    background-color: #002d55;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
+    padding:0;
+    border-radius: 3px;
+    background: #cbcbff;
+    box-shadow: 0 9px 10px 0 rgb(0 0 0 / 35%);
+    display: none;  
 }
-.submenu li a{
-    margin: 0;
-    padding: 0;
-    padding-top: 20%;
-    color: #ccc;
+
+.submenu li{
     white-space: nowrap;
+    width: 100%;
+    padding:2px 7px;
+}
+
+.header-right .menubar ul{
+    /* height: 70px; */
+    margin: 0;
+    /* background-color: yellow; */
+}
+.menubar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.menubar ul li,a {
+    text-decoration: none;
+    list-style: none;
+}
+.menubar ul li{
+    display: inline-block;
+    /* height: 70px; */
+}
+.menubar .mainmenu > li{
+    
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menubar ul li:nth-child(6){
+    position: relative;
+}
+.menubar ul ul {
+    position: absolute;
     left: 0;
-    padding-right: 20px;
-    margin-right: 5px;
-    padding-bottom: 10px;
-    display: none;
+    /* width: auto; */
+    z-index: 1000;
+    overflow: hidden;
+    /* display: block; */
 }
-.header-right nav ul li:nth-child(6):hover .submenu li a{
+.menubar .mainmenu li:nth-child(6):hover .submenu{
     display: block;
-    /* transition: 5s; */
+    
 }
-.submenu li:hover a{
-    color: #000000;
+.submenu li:hover{
+    background-color: green;
 }
+.menubar ul ul li{
+    /* z-index: 1000; */
+    /* background-color: #002d55; */
+}
+.submenu li{
+    padding: 10px 10px;
+    /* display: flex; */
+    /* text-align: center; */
+}
+
+
+
+
+
 
 /*banner*/
 #banner{
@@ -1500,6 +1529,9 @@ footer*/
 }
 .foot1 a i{
     color: #ffffff;
+}
+.foot ul li{
+    list-style: none;
 }
 
 

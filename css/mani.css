@@ -64,7 +64,7 @@ html{
     text-decoration: none;
     list-style: none;
 }
-.menubar ul li{
+.menubar .mainmenu > li{
     display: inline-block;
     /* height: 70px; */
 }
@@ -77,12 +77,12 @@ html{
 .menubar ul li:nth-child(6){
     position: relative;
 }
-.menubar ul ul {
+.menubar ul .submenu {
     position: absolute;
     left: 0;
     /* width: auto; */
     z-index: 1000;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* display: block; */
 }
 .menubar .mainmenu li:nth-child(6):hover .submenu{
@@ -101,6 +101,42 @@ html{
     /* display: flex; */
     /* text-align: center; */
 }
+.submenu2{
+    /* background-color: red; */
+    position: absolute;
+    /* left: -100%; */
+    z-index: 2000;
+    width: 70%;
+    /* margin-left: 30px; */
+    background-color: #5d7d9b;
+    left: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px 0px white;
+    left: -105%;
+    top: 0;
+    display: none;
+    
+}
+.submenu2 > li{
+    width: 100%;
+    padding: 0;
+    padding: 10px;
+    margin: 0;
+    padding-right: 20px;
+    padding-inline-start: 0;
+    /* position: absolute; */
+    /* right: -10%; */
+
+}
+.submenu li:nth-child(4):hover .submenu2{
+    display: block;
+    overflow: hidden;
+}
+.submenu2 li:hover{
+    background-color: #002d55;
+}
+
+
 
 
 

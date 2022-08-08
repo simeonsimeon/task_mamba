@@ -1513,7 +1513,7 @@ footer*/
     color:#428bca;
     transition: .5s;
 }
-.foot2 ul a:hover li{
+.foot2 ul li a span:hover{
     color: #428bca;
     transition: .5s;
 }

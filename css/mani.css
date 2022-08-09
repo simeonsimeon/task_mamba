@@ -15,7 +15,10 @@ html{
     height: 40px;
     background-color: rgb(255, 255, 255);
     border-bottom: solid 1px rgb(221, 210, 210);
-    
+    /* position: sticky; */
+    /* top: 0; */
+    /* z-index: 3000; */
+
 }
 .quick-left a{
     text-decoration: none;
@@ -64,6 +67,9 @@ html{
     text-decoration: none;
     list-style: none;
 }
+.menubar ul li a:hover{
+    color: rgb(226, 36, 36);
+}
 .menubar .mainmenu > li{
     display: inline-block;
     /* height: 70px; */
@@ -108,13 +114,16 @@ html{
     z-index: 2000;
     width: 70%;
     /* margin-left: 30px; */
-    background-color: #5d7d9b;
+    background-color: #cbcbff;
     left: 100%;
     border-radius: 8px;
-    box-shadow: 0 2px 2px 0px white;
+    box-shadow: 0 1px 1px 0px #cbcbff;
     left: -105%;
     top: 0;
-    display: none;
+    transform: translateX(50px);
+    /* display: none; */
+    opacity: 0;
+    transition: all 1s 0s;
     
 }
 .submenu2 > li{
@@ -129,8 +138,15 @@ html{
 
 }
 .submenu li:nth-child(4):hover .submenu2{
-    display: block;
+    /* display: block; */
+    /* opacity: .1; */
+    /* opacity: .3; */
+    /* opacity: .5; */
+    opacity: 1;
     overflow: hidden;
+    transition: all .5s 0s;
+    transform: translateX(0px);
+    /* left: -60%; */
 }
 .submenu2 li:hover{
     background-color: #002d55;
